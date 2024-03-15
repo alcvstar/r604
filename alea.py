@@ -20,10 +20,10 @@ def draw_circle(color, radius, x, y):
     character.end_fill()
 
 # Dessin du corps
-draw_circle("yellow", 50, 0, 0)
+draw_circle("grey", 80, 0, 0)
 
 # Dessin de la tête
-draw_circle("yellow", 25, 0, 150)
+draw_circle("grey", 25, 0, 150)
 
 # Dessin des yeux
 draw_circle("black", 5, -20, 180)
